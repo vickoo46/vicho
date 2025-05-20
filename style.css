@@ -1,0 +1,25 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: rgb(133, 210, 255);
+}
+.btn {
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(to right, #bcdaf8, blue);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background 1s ease, transform 0.9s ease;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(to right, rgb(20, 74, 252), #004992);
+    color: rgba(120, 224, 255, 0.897);
+    transform: scale(1.05);
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  
+  }
